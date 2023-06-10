@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+  </head>
+  <body class="overflow-x-hidden">
+    <main class="bg-[#0a121f] h-[80vh] px-2">
+      <header class="flex items-center justify-between w-[100%] h-16 mb-10">
+        <div class="flex">
+          <img
+            src="./images/tailwind_logo-removebg-preview.png"
+            alt=""
+            class="h-5"
+          />
+          <p class="text-white">tailwindcss</p>
+        </div>
+        <nav class="flex justify-around text-white font-light text-xs w-80">
+          <a href="#">Docs</a>
+          <a href="#">Components</a>
+          <a href="#">Blog</a>
+          <a href="#">Software</a>
+          <i class="bi bi-moon-stars text-blue-500"></i>
+          <i class="bi bi-github text-teal-100"></i>
+        </nav>
+      </header>
+      <section class="flex flex-col items-center">
+        <h6 class="text-5xl text-white font-extrabold my-5 w-auto">
+          Rapidly build mordern websites <br />
+          without ever leaving your HTML.
+        </h6>
+        <p class="text-gray-400">
+          A utility-first CSS framework packed with classes like
+          <i class="text-blue-500">flex, pt-4, text-center</i> and <br />
+          <i class="text-blue-500">rotate-90</i> that can be composed to build
+          any design, directly in your markup.
+        </p>
+        <div class="my-5">
+          <button class="text-white bg-blue-500 border-1 rounded-[5%] h-9 w-24">
+            Get started
+          </button>
+          <input
+            type="text"
+            placeholder="Quick search...            Ctrl K"
+            class="pl-16 border-[1px] border-gray-800 rounded-[4%] w-72 h-10 bg-[#1e293b] mb-10"
+          />
+          <i class="bi bi-search absolute -ml-[17.5rem] mt-2 text-gray-400"></i>
+        </div>
+      </section>
+    </main>
+
+    <section class="flex items-center justify-around w-[100%] bg-[#0a121f]">
+      <div class="flex absolute mr-[40rem]">
+        <img src="./images/koala2.jpeg" alt="" class="w-40 h-40 rounded-[4%]" />
+        <div class="flex flex-col bg-[#1e293b] pl-4 h-40 rounded-[4%]">
+          <p class="text-white">
+            "Tailwindcss is the only framework that I've <br />
+            seen scale on large teams. it's easy to <br />
+            customize, adapts to any design and the <br />
+            build size is tiny."
+          </p>
+          <p class="text-blue-500">Sarah Dayan</p>
+          <p class="text-gray-600">Staff Engineer, Algolia</p>
+        </div>
+      </div>
+      <div class="ml-96">
+        <img
+          src="./images/Screenshot from 2023-06-08 11-26-43.png"
+          alt=""
+          class="h-[30rem] w-[40rem] rounded-[4%]"
+        />
+      </div>
+    </section>
+    <section
+      class="flex flex-col justify-center items-center bg-[#0f172a] h-[100vh] w-[100vw]"
+    >
+      <h6 class="text-4xl text-white font-bold my-5">
+        "Best practices" don't actually work.
+      </h6>
+      <p class="text-gray-400">
+        I've written <i class="text-blue-500">a few thousand words</i> on why
+        traditional "semantic class names" are the <br />
+        the reason CSS is hard to maintain, but the truth is that you won't
+        believe me until you <br />
+        actually try it. If you can suppress the urge to retch long enough to
+        give it a chance. I <br />
+        really think you'd wonder how you've ever worked with CSS any othere
+        way.
+      </p>
+      <div class="flex items-center justify-center text-white">
+        <img src="./images/koala1.jpeg" alt="" class="rounded-full w-20 h-20" />
+        <div class="flex flex-col">
+          <h1>Adam Wathan</h1>
+          <p class="text-gray-600">Creator of Tailwind CSS</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <.......---------------GRID SECTIONS--------------------------------.....> -->
+    <div
+      class="grid gap-x-8 gap-y-4 grid-cols-3 grid-rows-3 p-5 h-auto max-w-[100%x] border-1 bg-[#0f172a]"
+    >
+      <!-- <----------------1st g--------------------------------------------------------------->
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%] h-36 gap-y-2">
+        <div class="flex">
+          <img
+            src="./images/github.png"
+            class="h-16 w-16 rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Ryan Florence</h6>
+            <p class="font-extralight">Remix&React Traning</p>
+          </div>
+        </div>
+        <p class="font-extralight">
+          I feel like an idiot for not using Tailwindcss until <br />
+          now.
+        </p>
+      </div>
+
+      <!-- <-----------------------------2nd g------------------ -->
+
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%]">
+        <div class="flex">
+          <img
+            src="./images/github-removebg-preview.png"
+            class="h-16 w-16 rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Debbie O'Brien</h6>
+            <p class="font-extralight">Senior Programme Manager at Microsoft</p>
+          </div>
+        </div>
+        <p class="font-extralight">
+          I feel like an idiot for not using Tailwindcss until <br />
+          now.
+        </p>
+      </div>
+      <!-- <-----------------------------------3rd g--------------------------- -->
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%] h-32">
+        <div class="flex">
+          <img
+            src="./images/tailwind_logo-removebg-preview.png"
+            class="h-16 w-16 rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Kent C. Dobbs</h6>
+            <p class="font-extralight">Developer and Educator</p>
+          </div>
+        </div>
+        <p class="font-extralight">Skip to the end. Use @tailwindcss</p>
+      </div>
+      <!-- <-----------------------4th g---------------- -->
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%] h-44">
+        <div class="flex">
+          <img
+            src="./images/Screenshot from 2023-06-08 11-26-43.png"
+            class="h-16 w-16 rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Gulliermo Rauch</h6>
+            <p class="font-extralight">Verbit</p>
+          </div>
+        </div>
+        <p class="font-extralight">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, labore
+          veritatis alias animi est quas eum illum minu
+        </p>
+      </div>
+      <!-- <------------------------------------------5th g------------------------------------------.> -->
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%]">
+        <div class="flex">
+          <img
+            src="./images/shirts.jpg"
+            class="h-16 w-16 rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Ben Furfie</h6>
+            <p class="font-extralight">Developer</p>
+          </div>
+        </div>
+        <p class="font-extralight">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum
+          consectetur saepe at maiores reiciendis hic, ipsam quis excepturi
+          illum natus explicabo tenetur molestias odit est provident eveniet
+          recusandae sapiente.
+        </p>
+      </div>
+      <!-- <------------------------6th g------------------------>
+      <div class="bg-[#1e293b] text-white p-5 rounded-[4%]">
+        <div class="flex">
+          <img
+            src="./images/koala2.jpeg"
+            class="h-[90px] w-[90px] rounded-full m-1"
+            alt=""
+          />
+          <div class="flex flex-col">
+            <h6>Shurati Balasa</h6>
+            <p class="font-extralight">
+              Full Stack Web Developer&Tech Educator
+            </p>
+          </div>
+        </div>
+        <p class="font-extralight">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br />
+          Voluptates quibusdam tenetur eum voluptas <br />
+        </p>
+      </div>
+      <button
+        class="bg-[#324154] w-36 h-10 text-white relative -mt-[95px] mx-[550px] rounded-[2%]"
+      >
+        Show more...
+      </button>
+    </div>
+    <section class="bg-[#0f172a] p-10">
+      <div
+        class="h-[70px] w-[70px] bg-indigo-600 text-slate-300 rounded-full border-[0.1px] mb-7 px-4 pt-[13px] border-slate-400"
+      >
+        <div class="flex justify-around">
+          <i class="bi bi-square-fill"></i> <i class="bi bi-0-circle"></i>
+        </div>
+        <div class="flex justify-around">
+          <i class="bi bi-triangle-fill"></i> <i class="bi bi-geo-alt-fill text-blue-950"></i>
+        </div>
+      </div>
+      <p class="text-blue-700">Constaint-based</p>
+      <h6 class="text-3xl text-white font-semibold">
+        An API for your design system.
+      </h6>
+      <p class="font-extralight text-gray-400">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+        Amet, ab facere! Cumque <br />
+        possimus id recusandae dicta autem! Iure quibusdam eos, dolor <br />
+        labore quis corrupti, fuga ad, epudiandae perspiciatis alias amet?
+      </p>
+      <button class="text-white bg-[#324154] w-40 h-12 my-3 rounded-[40%]">
+        Learn more
+      </button>
+      <div class="flex justify-between w-[35%] text-gray-400 pl-10">
+        <div class="text-blue-700">
+          <i class="bi bi-textarea-resize"></i>
+          <p>Sizing</p>
+        </div>
+        <div>
+          <i class="bi bi-palette2"></i>
+          <p>Colors</p>
+        </div>
+        <div>
+          <i class="bi bi-cursor-text"></i>
+          <p>Typography</p>
+        </div>
+        <div>
+          <i class="bi bi-circle-half"></i>
+          <p>Shadows</p>
+        </div>
+      </div>
+    </section>
+    <section class="w-[100%] h-[100vh] bg-[#0a121f] p-10 flex justify-around items-center">
+      <div
+        class="bg-[#0f172a] border-[20px] border-[#1d283a] h-[70vh] w-[50%] text-center text-white rounded-[3%] leading-9 p-10 m-2"
+      >
+        <div class="w-96 bg-blue-700 m-5">w-96</div>
+        <div class="w-80 bg-blue-700 m-5">w-80</div>
+        <div class="w-72 bg-blue-700 m-5">w-72</div>
+        <div class="w-64 bg-blue-700 m-5">w-64</div>
+        <div class="w-60 bg-blue-700 m-5">w-60</div>
+        <div class="w-56 bg-blue-700 m-5">w-56</div>
+        <div class="w-52 bg-blue-700 m-5">w-52</div>
+        <div class="w-48 bg-blue-700 m-5">w-48</div>
+      </div>
+
+      <img
+        src="./images/Screenshot from 2023-06-08 11-26-43.png"
+        class="h-[85vh] w-[48%] border-[#1d283a] border-[1px] border-t-[30px]"
+        alt=""
+      />
+    </section>
+  </body>
+</html>
