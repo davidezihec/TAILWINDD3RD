@@ -657,6 +657,18 @@ video {
   height: auto;
 }
 
+.h-\[0vh\] {
+  height: 0vh;
+}
+
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[150vh\] {
+  height: 150vh;
+}
+
 .w-16 {
   width: 4rem;
 }
